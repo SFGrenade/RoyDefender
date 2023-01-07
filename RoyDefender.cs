@@ -29,6 +29,7 @@ namespace RoyDefender
             GameObject wdGo = to.Find("White Defender");
             PlayMakerFSM wdFsm = wdGo.LocateMyFSM("Dung Defender");
             wdFsm.GetAction<SendEvent>("Move Choice", 0).Enabled = true;
+            wdFsm.GetAction<SetIntValue>("Air Dive?", 3).intValue = 100;
         }
     }
 }
