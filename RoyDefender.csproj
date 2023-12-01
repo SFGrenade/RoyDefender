@@ -6,7 +6,8 @@
     <AssemblyTitle>RoyDefender</AssemblyTitle>
     <Product>RoyDefender</Product>
     <Description>A Hollow Knight Mod</Description>
-    <Copyright>Copyright © SFGrenade 2019-2021</Copyright>
+    <Copyright>Copyright © SFGrenade 2024</Copyright>
+    <PathMap>$(MSBuildProjectDirectory)=source</PathMap>
     <AssemblyVersion>1.5.0.1</AssemblyVersion>
     <FileVersion>1.5.0.1</FileVersion>
     <OutputPath>bin/$(Configuration)/</OutputPath>
